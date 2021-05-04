@@ -39,11 +39,11 @@ const App = () => {
 
   return (
     <div className="wrapper">
-    <div className="container">
-      <button className="fitted" onClick={reRender}>Re-render</button>
-      <button className="fitted" onClick={toggle}>Show/Hide LifecycleDemo</button>
-      {mounted && <LifecycleDemo/>}
-    </div>
+      <div className="container">
+        <button className="fitted" onClick={reRender}>Re-render</button>
+        <button className="fitted" onClick={toggle}>Show/Hide LifecycleDemo</button>
+        {mounted && <LifecycleDemo/>}
+      </div>
     </div>
   );
 }
