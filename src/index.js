@@ -40,7 +40,7 @@ const App = () => {
   return (
     <div className="wrapper">
       <header className="container">
-        <h1>The Basics of React Hooks and the Component Lifecycle</h1>
+        <h5>The Basics of React Hooks and the Component Lifecycle</h5>
       </header>
       <div className="container">
         <button className="fitted" onClick={reRender}>Re-render</button>
