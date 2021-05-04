@@ -49,7 +49,7 @@ const App = () => {
       <div id="output" className="container">
         {mounted && <LifecycleDemo/>}
       </div>
-      <footer id="credits" class="conclusion">
+      <footer id="credits" className="conclusion">
         <h5>Inspired by: <a href="https://www.codegrepper.com/app/profile.php?id=8932">Deadly Muffin</a></h5>
       </footer>
     </div>

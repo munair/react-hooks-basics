@@ -40,7 +40,9 @@
 	}
 
 	.conclusion {
-		width: 300px;
+		display: flex;
+		flex-flow: column wrap;
+		align-content: flex-end;
 		min-height: 33vh;
     padding: 0;
     margin: 0;
