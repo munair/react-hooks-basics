@@ -39,14 +39,19 @@ const App = () => {
 
   return (
     <div className="wrapper">
-      <header class="heading">
-        <h5>The Basics of React Hooks and the Component Lifecycle</h5>
+      <header id="about" class="heading">
+        <h4>The Basics of React Hooks and the Component Lifecycle</h4>
       </header>
-      <div className="container">
+      <div id="controls" className="container">
         <button className="fitted" onClick={reRender}>Re-render</button>
         <button className="fitted" onClick={toggle}>Show/Hide LifecycleDemo</button>
+      </div>
+      <div id="output" className="container">
         {mounted && <LifecycleDemo/>}
       </div>
+      <footer id="credits" class="conclusion">
+        <h5>Inspired by: <a href="https://www.codegrepper.com/app/profile.php?id=8932">Deadly Muffin</a></h5>
+      </footer>
     </div>
   );
 }
