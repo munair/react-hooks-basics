@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <div className="wrapper">
-      <header className="container">
+      <header>
         <h5>The Basics of React Hooks and the Component Lifecycle</h5>
       </header>
       <div className="container">
