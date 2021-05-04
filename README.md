@@ -5,6 +5,8 @@ lifecycle.
 
 Based on deadlymuffin's [javascript](https://www.codegrepper.com/app/profile.php?id=8932).
 
+## The Basics of React Hooks and the Component Lifecycle
+
 ```javascript
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';

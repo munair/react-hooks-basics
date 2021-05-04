@@ -16,6 +16,7 @@
 	  align-items: center; /* stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe */
 	  align-content: center; /* flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe */
 	}
+
 	.container {
 	  min-width: 100vw;
 	  display: flex; /* or inline-flex */
@@ -23,6 +24,7 @@
 	  flex-wrap: wrap; /* nowrap | wrap | wrap-reverse */
 	  justify-content: center; /* flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe  */
 	}
+
 	button.fitted {
 	  min-width: 300px;
 	  max-width: 400px;
@@ -34,9 +36,9 @@
 		text-decoration: none;
 	}
 
-		a:hover {
-			border-bottom-color: transparent;
-		}
+	a:hover {
+		border-bottom-color: transparent;
+	}
 
 	strong, b {
 		font-weight: 600;
@@ -848,4 +850,3 @@
 			}
 
 		}
-
