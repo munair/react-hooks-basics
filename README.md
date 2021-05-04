@@ -1,4 +1,4 @@
-# Hook Basic
+# React Hook Basics
 
 Brief notes on implementing React hooks to keep state and monitor the component
 lifecycle.
