@@ -12,7 +12,7 @@
 	.wrapper {
 	  min-height: 100vh;
 	  display: flex; /* or inline-flex */
-	  flex-direction: row; /* row | row-reverse | column | column-reverse */
+	  flex-direction: column; /* row | row-reverse | column | column-reverse */
 	  align-items: center; /* stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe */
 	  align-content: center; /* flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe */
 	}
