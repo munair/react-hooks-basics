@@ -51,8 +51,12 @@ body {
 
 #title {
 	flex: 1;
-	padding-top: 20px;
+	padding: 20px 0;
 	text-align: center;
+}
+
+#title h6 {
+	margin: 0;
 }
 
 #title h4, h6 {
