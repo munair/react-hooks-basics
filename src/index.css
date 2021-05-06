@@ -44,6 +44,8 @@ body {
 .heading img {
 	flex: 1;
 	width:56px;
+	height:56px;
+	margin: auto;
 }
 .heading h2 {
 	flex: 1;
