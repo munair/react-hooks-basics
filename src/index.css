@@ -25,15 +25,11 @@ body {
 
 .heading {
 	display: flex;
-	flex-flow: column wrap;
-	justify-content: flex-end;
-	height: 300px;
-  padding: 0;
-  margin: 0;
-  text-align: center;
+	flex: 0 1 4vw;
+	height: 33vh;
+	justify-content: center;
+	align-content: center;
 	background-color: rgb(246, 61, 6);
-	color: #ffffff;
-	width: auto;
 	border: 1px #ccc solid /* please remove... for design only. */
 }
 
