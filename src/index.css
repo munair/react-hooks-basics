@@ -24,6 +24,8 @@ body {
 }
 
 .heading {
+	display: flex;
+	justify-content: flex-end;
 	height: 300px;
   padding: 0;
   margin: 0;
