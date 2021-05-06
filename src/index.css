@@ -30,6 +30,8 @@ body {
 	justify-content: center;
 	align-content: center;
 	background-color: rgb(246, 61, 6);
+	flex-flow: column wrap;
+	justify-content: flex-end;
 	border: 1px #ccc solid /* please remove... for design only. */
 }
 
