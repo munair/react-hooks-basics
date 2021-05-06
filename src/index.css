@@ -24,7 +24,7 @@ body {
 }
 
 .heading {
-	display: flex;
+	flex-flow: column wrap;
 	justify-content: flex-end;
 	height: 300px;
   padding: 0;
