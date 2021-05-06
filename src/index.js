@@ -45,8 +45,8 @@ const App = () => {
           <h2>USEFULCOIN</h2>
         </div>
         <div id="title">
-          <h6>EDUCATION & TRAINING</h6>
           <h4>The Basics of React Hooks and the Component Lifecycle</h4>
+          <h6>Inspired by: <a href="https://www.codegrepper.com/app/profile.php?id=8932">Deadly Muffin</a></h6>
         </div>
       </header>
       <div id="controls" className="container">
@@ -57,7 +57,7 @@ const App = () => {
         {mounted && <LifecycleDemo/>}
       </div>
       <footer id="credits" className="conclusion">
-        <h5>Inspired by: <a href="https://www.codegrepper.com/app/profile.php?id=8932">Deadly Muffin</a></h5>
+        <h6>&copy USEFUL COIN EDUCATION & TRAINING</h6>
       </footer>
     </div>
   );
