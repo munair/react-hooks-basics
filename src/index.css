@@ -25,7 +25,7 @@ body {
 
 .banner {
 	display: flex;
-	height: 33vh;
+	min-height: 33vh;
 	justify-content: flex-end;
 	align-content: stretch;
 	background-color: rgb(246, 61, 6);
@@ -38,6 +38,8 @@ body {
 
 #branding {
 	flex: 4;
+	padding-top: 100px;
+	text-align: center;
 	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
 }
 
