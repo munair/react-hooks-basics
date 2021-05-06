@@ -32,10 +32,6 @@ body {
 	flex-flow: column wrap;
 }
 
-.banner * {
-	margin: auto;
-}
-
 .banner #branding {
 	flex: 3;
 	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
