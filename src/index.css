@@ -34,8 +34,11 @@ body {
 	background-color: rgb(246, 61, 6);
 	color: #ffffff;
 	width: auto;
-	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
 	border: 1px #ccc solid /* please remove... for design only. */
+}
+
+.heading * {
+	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
 }
 
 .heading h2 {
