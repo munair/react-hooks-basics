@@ -41,11 +41,17 @@ body {
 	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
 }
 
+.heading img {
+	flex: 1;
+	width:56px;
+}
 .heading h2 {
+	flex: 1;
 	color: #FFFFFF;
 	letter-spacing: 1rem;
 }
 .heading h4 {
+	flex: 1;
 	color: #BFC0C0;
 }
 
