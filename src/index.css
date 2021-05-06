@@ -31,17 +31,16 @@ body {
 	background-color: rgb(246, 61, 6);
 	flex-flow: column wrap;
 	justify-content: flex-end;
-	border: 3px #fff solid /* please remove... for design only. */
 }
 
 .heading * {
 	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
+	margin: auto;
 }
 
 .heading img {
 	width:48px;
 	height:48px;
-	margin: auto;
 }
 .heading h2 {
 	color: #FFFFFF;
