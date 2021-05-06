@@ -40,7 +40,7 @@ const App = () => {
   return (
     <div className="wrapper">
       <header id="about" className="heading">
-        <img src="images/usefulcoin-whiteicon-128x128px.png" />
+        <img src="images/usefulcoin-whiteicon-128x128px.png" width="128px"/>
         <h2>Useful Coin</h2>
         <h4>The Basics of React Hooks and the Component Lifecycle</h4>
       </header>
