@@ -19,10 +19,6 @@ body {
   justify-content: space-between; /* flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe */
 }
 
-.wrapper div {
-	border: 1px #ccc solid /* please remove... for design only. */
-}
-
 .banner {
 	display: flex;
 	min-height: 33vh;
@@ -65,6 +61,7 @@ body {
 
 .container {
   min-width: 100vw;
+	min-height: fit-content;
   display: flex; /* or inline-flex */
   flex-direction: row; /* row | row-reverse | column | column-reverse */
   flex-wrap: wrap; /* nowrap | wrap | wrap-reverse */
@@ -82,8 +79,10 @@ button.fitted {
 	flex-flow: column wrap;
 	justify-content: flex-end;
   padding: 0;
+	padding-top: 20px;
   margin: 0;
   text-align: center;
+	min-height: fit-content;
 }
 
 a {
