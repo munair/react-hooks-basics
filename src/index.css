@@ -1,5 +1,77 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
+body {
+	/* background-color: #1e252d; */
+	background-color: #ffffff;
+	font-family: "Merriweather", Georgia, serif;
+	margin: 0;
+	height: auto;
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 2.375;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex; /* or inline-flex */
+  flex-direction: column; /* row | row-reverse | column | column-reverse */
+  align-items: stretch; /* stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe */
+  justify-content: space-between; /* flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe */
+}
+
+.wrapper div {
+	border: 1px #ccc solid /* please remove... for design only. */
+}
+
+.heading {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-end;
+	height: 300px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+	background-color: rgb(246, 61, 6);
+	color: #ffffff;
+	width: auto;
+	border: 1px #ccc solid /* please remove... for design only. */
+}
+
+.heading img {
+	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
+}
+
+.heading h2 {
+	color: #ffffff;
+	letter-spacing: 1rem;
+}
+.heading h4 {
+	color: #eeeeee;
+}
+
+.container {
+  min-width: 100vw;
+  display: flex; /* or inline-flex */
+  flex-direction: row; /* row | row-reverse | column | column-reverse */
+  flex-wrap: wrap; /* nowrap | wrap | wrap-reverse */
+  justify-content: center; /* flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe  */
+}
+
+button.fitted {
+  width: 300px;
+  max-width: 400px;
+	margin: 10px;
+}
+
+.conclusion {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
 a {
 	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 	border-bottom: dotted 1px;
@@ -159,78 +231,6 @@ code {
 
 hr {
 	border-bottom-color: #eeeeee;
-}
-
-body {
-	/* background-color: #1e252d; */
-	background-color: #ffffff;
-	font-family: "Merriweather", Georgia, serif;
-	margin: 0;
-	height: auto;
-	font-weight: 300;
-	font-size: 1rem;
-	line-height: 2.375;
-}
-
-.wrapper {
-  min-height: 100vh;
-  display: flex; /* or inline-flex */
-  flex-direction: column; /* row | row-reverse | column | column-reverse */
-  align-items: stretch; /* stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe */
-  justify-content: space-between; /* flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe */
-}
-
-.wrapper div {
-	border: 1px #ccc solid /* please remove... for design only. */
-}
-
-.heading {
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: flex-end;
-	height: 300px;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-	background-color: rgb(246, 61, 6);
-	color: #ffffff;
-	width: auto;
-	border: 1px #ccc solid /* please remove... for design only. */
-}
-
-.heading img {
-	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
-}
-
-.heading h1 {
-	color: #ffffff;
-	letter-spacing: 1rem;
-}
-.heading h4 {
-	color: #eeeeee;
-}
-
-.container {
-  min-width: 100vw;
-  display: flex; /* or inline-flex */
-  flex-direction: row; /* row | row-reverse | column | column-reverse */
-  flex-wrap: wrap; /* nowrap | wrap | wrap-reverse */
-  justify-content: center; /* flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe  */
-}
-
-button.fitted {
-  width: 300px;
-  max-width: 400px;
-	margin: 10px;
-}
-
-.conclusion {
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: flex-end;
-  padding: 0;
-  margin: 0;
-  text-align: center;
 }
 
 /* Button */
