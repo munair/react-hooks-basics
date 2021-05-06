@@ -72,6 +72,10 @@ body {
   justify-content: center; /* flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe  */
 }
 
+#output.container {
+	min-height: 50px;
+}
+
 button.fitted {
   width: 300px;
   max-width: 400px;
@@ -88,6 +92,9 @@ button.fitted {
   text-align: center;
 	min-height: fit-content;
 	background-color: #2D3142;
+}
+
+.conclusion h5 {
 	color: #F4E409;
 }
 
