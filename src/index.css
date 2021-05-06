@@ -32,6 +32,10 @@ body {
 	flex-flow: column wrap;
 }
 
+.banner div {
+	width: 100%;
+}
+
 #branding {
 	flex: 4;
 	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
