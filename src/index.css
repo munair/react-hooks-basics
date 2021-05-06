@@ -23,7 +23,7 @@ body {
 	border: 1px #ccc solid /* please remove... for design only. */
 }
 
-.heading {
+.banner {
 	display: flex;
 	height: 33vh;
 	justify-content: flex-end;
@@ -32,22 +32,22 @@ body {
 	flex-flow: column wrap;
 }
 
-.heading * {
+.banner * {
 	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
 	margin: auto;
 }
 
-.heading img {
+.banner img {
 	width:48px;
 	height:48px;
 }
 
-.heading h2 {
+.banner h2 {
 	color: #FFFFFF;
 	letter-spacing: 1rem;
 }
 
-.heading h4 {
+.banner h4 {
 	color: #BFC0C0;
 	text-align: center;
 }

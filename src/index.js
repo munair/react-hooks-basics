@@ -40,10 +40,14 @@ const App = () => {
   return (
     <div className="wrapper">
       <header id="about" className="heading">
-        <img src="images/usefulcoin-whiteicon-128x128px.png" alt="usefulcoin icon" />
-        <h2>USEFULCOIN</h2>
-        <h6>EDUCATION & TRAINING</h6>
-        <h4>The Basics of React Hooks and the Component Lifecycle</h4>
+        <div id="branding">
+          <img src="images/usefulcoin-whiteicon-128x128px.png" alt="usefulcoin icon" />
+          <h2>USEFULCOIN</h2>
+        </div>
+        <div id="title">
+          <h6>EDUCATION & TRAINING</h6>
+          <h4>The Basics of React Hooks and the Component Lifecycle</h4>
+        </div>
       </header>
       <div id="controls" className="container">
         <button className="fitted" onClick={reRender}>Re-render</button>
