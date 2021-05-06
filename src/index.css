@@ -87,6 +87,8 @@ button.fitted {
   margin: 0;
   text-align: center;
 	min-height: fit-content;
+	background-color: #2D3142;
+	color: #F4E409;
 }
 
 a {
