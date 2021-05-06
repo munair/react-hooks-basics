@@ -24,14 +24,14 @@ body {
 }
 
 .banner {
+}
+
+.branding * {
 	display: flex;
 	height: 33vh;
 	justify-content: flex-end;
 	align-content: center;
 	flex-flow: column wrap;
-}
-
-.banner * {
 	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
 	margin: auto;
 	background-color: rgb(246, 61, 6);
