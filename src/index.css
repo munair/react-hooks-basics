@@ -33,7 +33,7 @@ body {
 }
 
 .banner #branding {
-	flex: 3;
+	flex: 4;
 	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
 }
 .banner #branding img {
