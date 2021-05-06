@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <div className="wrapper">
-      <header id="about" className="heading">
+      <header id="about" className="banner">
         <div id="branding">
           <img src="images/usefulcoin-whiteicon-128x128px.png" alt="usefulcoin icon" />
           <h2>USEFULCOIN</h2>
