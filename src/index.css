@@ -30,7 +30,6 @@ body {
 	align-content: center;
 	background-color: rgb(246, 61, 6);
 	flex-flow: column wrap;
-	justify-content: flex-end;
 }
 
 .heading * {
@@ -48,18 +47,17 @@ body {
 	letter-spacing: 1rem;
 }
 
+.heading h4 {
+	color: #BFC0C0;
+	text-align: center;
+}
+
 .container {
   min-width: 100vw;
   display: flex; /* or inline-flex */
   flex-direction: row; /* row | row-reverse | column | column-reverse */
   flex-wrap: wrap; /* nowrap | wrap | wrap-reverse */
   justify-content: center; /* flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe  */
-}
-
-.container h4 {
-	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
-	color: #BFC0C0;
-	text-align: center;
 }
 
 button.fitted {

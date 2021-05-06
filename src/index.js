@@ -43,9 +43,9 @@ const App = () => {
         <img src="images/usefulcoin-whiteicon-128x128px.png" alt="usefulcoin icon" />
         <h2>USEFULCOIN</h2>
         <h6>EDUCATION & TRAINING</h6>
+        <h4>The Basics of React Hooks and the Component Lifecycle</h4>
       </header>
       <div id="controls" className="container">
-        <h4>The Basics of React Hooks and the Component Lifecycle</h4>
         <button className="fitted" onClick={reRender}>Re-render</button>
         <button className="fitted" onClick={toggle}>Show/Hide LifecycleDemo</button>
       </div>
