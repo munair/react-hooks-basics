@@ -59,8 +59,8 @@ body {
 	text-align: center;
 }
 
-#title h4 {
-	color: #BFC0C0;
+#title h4, h6 {
+	color: #2D3142;
 }
 
 .container {
