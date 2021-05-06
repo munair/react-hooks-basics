@@ -27,7 +27,7 @@ body {
 	display: flex;
 	height: 33vh;
 	justify-content: flex-end;
-	align-content: center;
+	align-content: stretch;
 	background-color: rgb(246, 61, 6);
 	flex-flow: column wrap;
 }
