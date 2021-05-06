@@ -23,35 +23,31 @@ body {
 	border: 1px #ccc solid /* please remove... for design only. */
 }
 
-#about {
-	height: 33vh;
-}
-
-#about * {
-	background-color: rgb(246, 61, 6);
-	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
-}
-
-#branding * {
-	height: 75%;
+.banner {
 	display: flex;
+	height: 33vh;
 	justify-content: flex-end;
 	align-content: center;
+	background-color: rgb(246, 61, 6);
 	flex-flow: column wrap;
+}
+
+.banner * {
+	filter: drop-shadow(rgb(0, 0, 0) 0px 0px 5px);
 	margin: auto;
 }
 
-#banner img {
+.banner img {
 	width:48px;
 	height:48px;
 }
 
-#banner h2 {
+.banner h2 {
 	color: #FFFFFF;
 	letter-spacing: 1rem;
 }
 
-#banner h4 {
+.banner h4 {
 	color: #BFC0C0;
 	text-align: center;
 }
