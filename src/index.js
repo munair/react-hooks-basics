@@ -2,22 +2,6 @@ import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-const LifecycleDemo = () => {
-  // It takes a function
-  useEffect(() => {
-    // This gets called after every render, by default
-    // (the first one, and every one after that)
-    console.log('render!');
-
-    // If you want to implement componentWillUnmount,
-    // return a function from here, and React will call
-    // it prior to unmounting.
-    return () => console.log('unmounting...');
-  }, [ random ] ); // dependencies to watch = leave blank to run once or you will get a stack overflow
-
-  return "I'm a lifecycle demo";
-}
-
 const App = () => {
   // Set up a piece of state, just so that we have
   // a way to trigger a re-render.
@@ -36,6 +20,22 @@ const App = () => {
   // LifecycleDemo, so you can see its cleanup function
   // being called.
   const toggle = () => setMounted(!mounted);
+
+  const LifecycleDemo = () => {
+    // It takes a function
+    useEffect(() => {
+      // This gets called after every render, by default
+      // (the first one, and every one after that)
+      console.log('render!');
+
+      // If you want to implement componentWillUnmount,
+      // return a function from here, and React will call
+      // it prior to unmounting.
+      return () => console.log('unmounting...');
+    }, [ random ] ); // dependencies to watch = leave blank to run once or you will get a stack overflow
+
+    return "I'm a lifecycle demo";
+  }
 
   return (
     <div className="wrapper">
