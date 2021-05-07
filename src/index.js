@@ -21,6 +21,7 @@ const LifecycleDemo = (random) => {
 const App = () => {
   // Set up a piece of state, just so that we have
   // a way to trigger a re-render.
+  // eslint-disable-next-line
   const [random, setRandom] = useState(Math.random());
 
   // Set up another piece of state to keep track of
