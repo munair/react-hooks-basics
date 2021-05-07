@@ -5,10 +5,6 @@ import './index.css';
 const LifecycleDemo = (random) => {
   // It takes a function
   useEffect(() => {
-    // Set up a piece of state, just so that we have
-    // a way to trigger a re-render.
-    const [random, setRandom] = useState(Math.random());
-
     // This gets called after every render, by default
     // (the first one, and every one after that)
     console.log('render!');
@@ -23,6 +19,10 @@ const LifecycleDemo = (random) => {
 }
 
 const App = () => {
+  // Set up a piece of state, just so that we have
+  // a way to trigger a re-render.
+  const [random, setRandom] = useState(Math.random());
+
   // Set up another piece of state to keep track of
   // whether the LifecycleDemo is shown or hidden
   const [mounted, setMounted] = useState(true);
